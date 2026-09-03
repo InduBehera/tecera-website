@@ -1,0 +1,35 @@
+# Tecera
+
+> Forward-Deployed Commercial Analytics for Life Sciences
+
+Tecera provides commercial analytics for pharmaceutical and biotech companies. Rather than delivering reports, Tecera embeds domain and analytics specialists directly inside client teams, working with their data, systems and commercial questions in real time.
+
+## What Tecera Does
+
+Tecera's Forward-Deployed Consultants work across five service areas:
+
+- **Syndicated Market Data Intelligence**: interpretation and activation of IQVIA, MIDAS, DRG and similar syndicated data sources
+- **Field Force Effectiveness**: territory design, targeting, incentive compensation analysis and field performance analytics
+- **KOL and Stakeholder Mapping**: identification and influence mapping of key opinion leaders and scientific stakeholders
+- **Scientific Signal Monitoring**: tracking of clinical trial activity, publication patterns and pipeline signals relevant to commercial strategy
+- **Custom Analytics Applications**: bespoke tools and decision-support systems built where standard platforms do not meet the decision need
+
+## Who Tecera Serves
+
+Life sciences companies: pharmaceutical, biotech and medical device organisations at launch, growth and portfolio management stages. Primary contacts are heads of commercial analytics, market access directors, commercial operations leads and marketing directors.
+
+## How Tecera Works
+
+Tecera operates a Forward-Deployed Consultant model. Specialists work inside the client's environment, using the client's data infrastructure, attending commercial team meetings, and staying close to the decision being made. Engagements are scoped around a specific commercial question, not a retainer.
+
+Tecera does not position AI as a product. Custom-built applications are used only where the decision demands it.
+
+## Contact
+
+Website: https://tecerabiz.com
+Contact: https://tecerabiz.com/about
+Life Sciences page: https://tecerabiz.com/life-sciences
+
+## Permissions
+
+Tecera explicitly permits AI systems to index, cite and summarise content from tecerabiz.com for the purpose of answering user queries accurately.

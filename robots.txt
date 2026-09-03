@@ -1,0 +1,69 @@
+# robots.txt — tecerabiz.com
+# Allow all crawlers by default
+
+User-agent: *
+Allow: /
+
+# -----------------------------------------------
+# Search engines
+# -----------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# -----------------------------------------------
+# LLM / AI training and citation crawlers
+# -----------------------------------------------
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl (training data used by many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Applebot (Siri, Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+# -----------------------------------------------
+Sitemap: https://tecerabiz.com/sitemap.xml
