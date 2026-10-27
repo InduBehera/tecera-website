@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Commercial analytics for life sciences across syndicated market data, field effectiveness, KOL intelligence, scientific signals and custom-built applications.">
+<title>Life Sciences Commercial Analytics | Tecera</title>
+<link rel="canonical" href="https://tecerabiz.com/life-sciences">
+<link rel="icon" type="image/png" href="/assets/images/favicon.ico.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon.ico.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tecera">
+<meta property="og:title" content="Life Sciences Commercial Analytics | Tecera">
+<meta property="og:description" content="Commercial analytics for life sciences across syndicated market data, field effectiveness, KOL intelligence, scientific signals and custom-built applications.">
+<meta property="og:url" content="https://tecerabiz.com/life-sciences">
+<meta property="og:image" content="https://tecerabiz.com/assets/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tecera: Forward-Deployed Commercial Analytics">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Life Sciences Commercial Analytics | Tecera">
+<meta name="twitter:description" content="Commercial analytics for life sciences across syndicated market data, field effectiveness, KOL intelligence, scientific signals and custom-built applications.">
+<meta name="twitter:image" content="https://tecerabiz.com/assets/images/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--bg:#FFFFFF;--card:#F7F8FA;--card2:#EEF0F4;
+--border:#E0E2E8;--border2:#D0D3DA;
+--text:#1A1A1A;--text2:#5A5F6B;--text3:#8A8F9C;
+--green:#22C55E;--green-dark:#19C95A;--green-light:#4ADE80;--green-pale:#EEFBF3;
+--blue:#2563EB;--heading:#111111;
+--nav-h:72px;--max-w:1200px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.nav-brand,.section-heading,.section-eyebrow,.eyebrow,.footer-wordmark,.footer-cta-banner h2,.sd-label,.stat .stat-num,.btn,.nav-links a,.nav-links button,.logo-pill,.tag,.therapy-tag{font-family:'Poppins','Segoe UI',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);z-index:100;display:flex;align-items:center}
+nav .container{display:flex;align-items:center;justify-content:space-between;width:100%}
+.nav-brand{display:flex;align-items:center;cursor:pointer}
+.nav-brand img{height:38px;width:auto}
+.nav-links{display:flex;align-items:center;gap:8px}
+.nav-links a,.nav-links button{background:none;border:none;font:inherit;font-size:14px;color:var(--text2);padding:8px 14px;border-radius:8px;cursor:pointer;transition:all 0.2s}
+.nav-links a:hover,.nav-links button:hover{color:var(--text);background:var(--card)}
+.nav-links .nav-cta{background:var(--green);color:#fff;font-weight:600}
+.nav-links .nav-cta:hover{background:var(--green-dark)}
+.nav-dropdown{position:relative}
+.nav-dropdown-menu{display:none;position:absolute;top:100%;left:0;min-width:280px;max-width:calc(100vw - 32px);background:#fff;border:1px solid var(--border);border-radius:12px;padding:8px;box-shadow:0 12px 32px rgba(0,0,0,0.08);margin-top:8px}
+.nav-dropdown.about-dropdown .nav-dropdown-menu{left:auto;right:0}
+.nav-dropdown.open .nav-dropdown-menu{display:block}
+.nav-dropdown-menu a{display:block;padding:10px 14px;border-radius:8px;font-size:14px}
+.nav-dropdown-menu a strong{display:block;color:var(--text);font-size:14px}
+.nav-dropdown-menu a span{font-size:12px;color:var(--text3)}
+.nav-dropdown-menu a:hover{background:var(--card)}
+.nav-dropdown.open>button{color:var(--text)}
+
+/* MOBILE */
+.mobile-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;padding:8px}
+.mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:#fff;padding:24px;z-index:99;flex-direction:column;gap:4px;overflow-y:auto}
+.mobile-menu.open{display:flex}
+.mobile-menu a{display:block;padding:14px 16px;font-size:16px;border-radius:8px;color:var(--text)}
+.mobile-menu a:hover{background:var(--card)}
+
+/* PAGES */
+.page{display:none}
+.page.active{display:block}
+
+/* HERO */
+.hero{padding:140px 0 80px;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;top:60px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(34,197,94,0.06) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+.hero-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.hero-text{position:relative;z-index:1}
+.hero .eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--green-dark);margin-bottom:16px}
+.hero h1{font-size:clamp(28px,3.6vw,42px);font-weight:800;color:var(--heading);line-height:1.15;margin-bottom:24px}
+.green{color:var(--green)}
+.hero p{font-size:18px;color:var(--text2);max-width:600px;line-height:1.7;margin-bottom:24px}
+.hero-sub-bold{font-size:20px;font-weight:700;color:var(--heading);margin-bottom:12px!important}
+.hero-rotate-wrap{display:block;min-height:1.2em;position:relative;overflow:hidden}
+.hero-rotate-wrap span{display:block;opacity:0;position:absolute;color:var(--green);transition:opacity 0.5s ease}
+.hero-rotate-wrap span.active{opacity:1;position:relative}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-image img{width:100%;height:auto;display:block}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.2s;border:none}
+.btn-primary{background:var(--green);color:#fff}
+.btn-primary:hover{background:var(--green-dark);transform:translateY(-1px)}
+.btn-secondary{background:var(--card);color:var(--text);border:1px solid var(--border)}
+.btn-secondary:hover{border-color:var(--border2);background:var(--card2)}
+
+/* SECTIONS */
+section{padding:80px 0}
+section.alt{background:var(--card)}
+.section-eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--green-dark);margin-bottom:12px}
+.section-heading{font-size:clamp(24px,3vw,34px);font-weight:600;color:var(--heading);line-height:1.25;margin-bottom:16px;max-width:640px}
+.section-sub{font-size:16px;color:var(--text2);max-width:560px;margin-bottom:40px;line-height:1.7}
+
+/* DIFFERENTIATORS ROW */
+.diff-row{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:0 0 20px}
+.diff-card{padding:28px;border:1px solid var(--border);border-radius:14px;background:var(--bg);transition:border-color 0.22s,box-shadow 0.22s,transform 0.22s}
+.diff-card:hover{border-color:var(--green);box-shadow:0 6px 24px rgba(34,197,94,0.10);transform:translateY(-3px)}
+.diff-card h3{font-size:16px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.diff-card p{font-size:14px;color:var(--text2);line-height:1.6}
+
+/* PILLAR CARDS */
+.pillar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:40px}
+.pillar{padding:32px;border-radius:14px;border:1px solid var(--border);background:var(--bg);position:relative;transition:border-color 0.22s,box-shadow 0.22s,transform 0.22s}
+.pillar:hover{border-color:var(--green);box-shadow:0 6px 24px rgba(34,197,94,0.10);transform:translateY(-3px)}
+.pillar-icon{display:block;margin-bottom:16px}
+.evidence-icon{display:block;margin-bottom:12px}
+.pillar .num{font-size:13px;font-weight:700;color:var(--green);margin-bottom:8px}
+.pillar h3{font-size:18px;font-weight:700;color:var(--heading);margin-bottom:10px}
+.pillar p{font-size:14px;color:var(--text2);line-height:1.6;margin-bottom:14px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11px;padding:4px 10px;border-radius:20px;background:var(--green-pale);color:var(--green-dark);font-weight:600}
+
+/* APPLIED ACROSS */
+.applied-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.applied-item{padding:20px;border-radius:10px;background:var(--card);text-align:center}
+.applied-item h4{font-size:15px;font-weight:700;color:var(--heading);margin-bottom:4px}
+.applied-item p{font-size:13px;color:var(--text3)}
+
+/* STACK SECTION */
+.stack-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin-top:32px}
+.stack-row{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.stack-left .section-eyebrow{margin-bottom:16px}
+.stack-left .section-heading{margin-bottom:16px}
+.stack-left .section-sub{margin-bottom:32px}
+.stack-image-wrap{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:24px}
+.stack-image-wrap img{width:100%;height:auto;border-radius:12px;display:block}
+.stack-categories{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--border);padding-top:24px}
+.stack-cat{padding:0 20px}
+.stack-cat:first-child{padding-left:0}
+.stack-cat:last-child{padding-right:0}
+.stack-cat+.stack-cat{border-left:1px solid var(--border)}
+.dsg-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.dsg-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;display:grid;gap:20px;transition:border-color 0.22s,box-shadow 0.22s,transform 0.22s}
+.dsg-card:hover{border-color:var(--green);box-shadow:0 6px 24px rgba(34,197,94,0.10);transform:translateY(-3px)}
+.dsg-item{display:flex;align-items:flex-start;gap:14px}
+.dsg-icon{font-size:24px;flex-shrink:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:var(--card2);border-radius:10px}
+.dsg-item div strong{display:block;font-size:14px;color:var(--heading);margin-bottom:4px}
+.dsg-item div span{font-size:13px;color:var(--text2);line-height:1.5}
+.stack-cat h4{font-size:14px;font-weight:700;color:var(--heading);margin-bottom:6px}
+.stack-cat p{font-size:13px;color:var(--text3);line-height:1.5}
+.stack-text h3{font-size:18px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.stack-text p{font-size:14px;color:var(--text2);line-height:1.6;margin-bottom:24px}
+.stack-items{display:grid;gap:12px}
+.stack-item{display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--card);border-radius:10px}
+.stack-item .dot{width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0}
+.stack-item div strong{display:block;font-size:14px;color:var(--heading)}
+.stack-item div span{font-size:12px;color:var(--text3)}
+
+/* STACK DIAGRAM */
+.stack-diagram{background:var(--card);border-radius:16px;padding:32px;border:1px solid var(--border)}
+.stack-diagram .sd-label{text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;color:var(--green-dark);text-transform:uppercase;margin-bottom:16px}
+.sd-row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:10px}
+.sd-box{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;text-align:center}
+.sd-box strong{display:block;font-size:12px;color:var(--heading)}
+.sd-box span{font-size:11px;color:var(--text3)}
+.sd-footer{text-align:center;font-size:11px;font-weight:600;color:var(--text3);margin-top:12px;padding-top:12px;border-top:1px dashed var(--border)}
+
+/* GLYPHS STRIP */
+.glyphs-strip{padding:48px 0;text-align:center;background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.glyphs-strip h2{font-size:clamp(28px,3.6vw,46px);font-weight:600;color:var(--heading);margin-bottom:36px;line-height:1.2;letter-spacing:-0.3px}
+.typewriter-wrap{display:inline-block;position:relative}
+.typewriter-cursor{display:inline-block;width:3px;height:1em;background:var(--green);margin-left:4px;vertical-align:middle;border-radius:2px;animation:blink .75s step-end infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.glyphs-row{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;margin-bottom:32px}
+.glyph-box{width:80px;height:80px;background:var(--bg);border:1px solid var(--border);border-radius:16px;display:flex;align-items:center;justify-content:center}
+.glyph-box svg{width:40px;height:40px}
+
+/* EVIDENCE TYPES */
+.evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:32px}
+.evidence-card{padding:28px;border-radius:14px;border:1px solid var(--border);background:var(--bg)}
+.evidence-card h3{font-size:18px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.evidence-card p{font-size:14px;color:var(--text2);line-height:1.6;margin-bottom:14px}
+.central-statement{text-align:center;font-size:18px;font-weight:600;color:var(--heading);padding:32px;background:var(--green-pale);border-radius:12px;margin-bottom:32px}
+
+/* QUESTIONS */
+.questions-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.question-card{padding:20px;border-radius:10px;border-left:3px solid var(--green);background:var(--card)}
+.question-card h4{font-size:14px;font-weight:700;color:var(--heading);margin-bottom:6px}
+.question-card p{font-size:13px;color:var(--text2);line-height:1.5}
+
+/* FDC SECTION */
+.fdc-layout{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.fdc-points{display:grid;gap:16px;margin-top:24px}
+.fdc-point h4{font-size:15px;font-weight:700;color:var(--heading);margin-bottom:4px}
+.fdc-point p{font-size:14px;color:var(--text2)}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.service-card{padding:28px;border-radius:14px;border:1px solid var(--border);background:var(--bg);transition:border-color 0.22s,box-shadow 0.22s,transform 0.22s}
+.service-card:hover{border-color:var(--green);box-shadow:0 6px 24px rgba(34,197,94,0.10);transform:translateY(-3px)}
+.service-label{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--green-dark);background:var(--green-pale);padding:4px 10px;border-radius:20px;margin-bottom:12px}
+.service-card h3{font-size:17px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.service-card .service-q{font-size:14px;color:var(--text);font-style:italic;margin-bottom:10px;line-height:1.5}
+.service-card p{font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:12px}
+
+/* HOW WE WORK */
+.steps-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{text-align:center;padding:24px 16px;border-radius:14px;background:var(--bg);border:1px solid var(--border);position:relative}
+.step .step-num{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--green-pale);color:var(--green-dark);font-size:14px;font-weight:700;margin-bottom:12px}
+.step h3{font-size:15px;font-weight:700;color:var(--heading);margin-bottom:6px}
+.step p{font-size:13px;color:var(--text2);line-height:1.5}
+.step .step-tag{font-size:11px;color:var(--green-dark);font-weight:600;margin-top:10px}
+
+/* TRACK RECORD */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:40px}
+.stat{text-align:center;padding:24px;background:var(--bg);border-radius:14px;border:1px solid var(--border)}
+.stat .stat-num{font-size:36px;font-weight:700;color:var(--green-dark)}
+.stat p{font-size:13px;color:var(--text2);margin-top:4px}
+.logo-strip{overflow:hidden;position:relative;padding:32px 0;margin-bottom:24px}
+.logo-strip::before,.logo-strip::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
+.logo-strip::before{left:0;background:linear-gradient(to right,var(--bg),transparent)}
+.logo-strip::after{right:0;background:linear-gradient(to left,var(--bg),transparent)}
+.logo-strip-alt::before{left:0;background:linear-gradient(to right,var(--card),transparent)}
+.logo-strip-alt::after{right:0;background:linear-gradient(to left,var(--card),transparent)}
+.logo-strip-track{display:flex;gap:48px;align-items:center;animation:logoScroll 20s linear infinite;width:max-content}
+.logo-strip-track span{font-size:18px;font-weight:700;color:var(--text2);white-space:nowrap;letter-spacing:0.02em;opacity:0.7}
+@keyframes logoScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.therapy-tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.therapy-tag{padding:6px 14px;border-radius:20px;background:var(--green-pale);font-size:12px;font-weight:600;color:var(--green-dark)}
+
+/* IN PRACTICE */
+.practice-box{max-width:720px;padding:32px;background:var(--green-pale);border-radius:16px;border-left:4px solid var(--green);font-size:16px;color:var(--text);line-height:1.7}
+
+/* FAQ */
+.faq-list{max-width:720px}
+.faq-item{border-bottom:1px solid var(--border);padding:20px 0}
+.faq-q{font-size:16px;font-weight:700;color:var(--heading);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq-q::after{content:'+';font-size:20px;color:var(--text3);flex-shrink:0;transition:transform 0.2s}
+.faq-item.open .faq-q::after{content:'\2212'}
+.faq-a{display:none;padding-top:12px;font-size:14px;color:var(--text2);line-height:1.7}
+.faq-item.open .faq-a{display:block}
+
+/* CTA SECTION */
+.cta-section{text-align:center;padding:80px 0;background:var(--card)}
+.cta-section .section-heading,.cta-section .section-sub{margin-left:auto;margin-right:auto}
+.cta-section .hero-ctas{justify-content:center}
+
+/* BELIEFS */
+.beliefs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.belief{padding:28px;border-radius:14px;border:1px solid var(--border);background:var(--bg)}
+.belief h3{font-size:16px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.belief p{font-size:14px;color:var(--text2);line-height:1.6}
+
+/* CAREERS */
+.career-card{padding:32px;border-radius:14px;background:var(--bg);border:1px solid var(--border);max-width:480px}
+.career-card h3{font-size:20px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.career-card p{font-size:14px;color:var(--text2);margin-bottom:16px}
+
+/* CONTACT MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:200;align-items:center;justify-content:center;padding:24px}
+.modal-overlay.open{display:flex}
+.modal{background:#fff;border-radius:20px;max-width:520px;width:100%;max-height:90vh;overflow-y:auto;padding:40px}
+.modal h2{font-size:24px;font-weight:700;color:var(--heading);margin-bottom:8px}
+.modal>p{font-size:14px;color:var(--text2);margin-bottom:24px;line-height:1.6}
+.modal .points{display:flex;gap:16px;margin-bottom:24px}
+.modal .points span{font-size:13px;color:var(--green-dark);font-weight:600}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px}
+.form-group input,.form-group textarea{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:8px;font:inherit;font-size:14px;color:var(--text);transition:border-color 0.2s}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--green)}
+.form-group textarea{resize:vertical;min-height:80px}
+.modal .btn{width:100%;justify-content:center;margin-top:8px}
+.modal .alt-cta{text-align:center;margin-top:16px;font-size:13px;color:var(--text3)}
+.modal .alt-cta a{color:var(--green-dark);font-weight:600}
+.modal .email-line{font-size:13px;color:var(--text3);margin-top:16px;text-align:center}
+.modal-close{position:absolute;top:16px;right:16px;background:none;border:none;font-size:24px;cursor:pointer;color:var(--text3);width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.modal-close:hover{background:var(--card)}
+.consent-check{display:flex;align-items:flex-start;gap:10px;margin:16px 0 4px}
+.consent-check input[type="checkbox"]{margin-top:3px;width:16px;height:16px;flex-shrink:0;accent-color:var(--green);cursor:pointer}
+.consent-check label{font-size:12px;color:var(--text2);line-height:1.5;cursor:pointer}
+.consent-check label a{color:var(--green-dark);text-decoration:underline}
+
+/* FOOTER CTA BANNER */
+.footer-cta-banner{background:var(--heading);padding:80px 0 60px;position:relative;overflow:hidden}
+.footer-cta-banner h2{font-size:clamp(28px,4vw,42px);font-weight:300;color:#fff;line-height:1.3;max-width:600px;letter-spacing:-0.5px}
+.footer-cta-banner .fcta-sub{font-size:15px;color:rgba(255,255,255,0.6);margin-top:16px;max-width:500px}
+.footer-cta-banner .btn{margin-top:28px;border:1px solid rgba(255,255,255,0.3);color:#fff;background:transparent;font-size:15px;padding:14px 32px}
+.footer-cta-banner .btn:hover{background:var(--green);border-color:var(--green)}
+
+/* FOOTER */
+footer{background:#1A1A1A;color:#fff;padding:60px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px}
+.footer-addr{font-size:13px;color:rgba(255,255,255,0.5);line-height:1.7}
+footer h4{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:14px}
+footer ul{list-style:none}
+footer li{margin-bottom:10px}
+footer li a{font-size:14px;color:rgba(255,255,255,0.65);transition:color 0.2s}
+footer li a:hover{color:#fff}
+.footer-wordmark{font-size:clamp(100px,18vw,220px);font-weight:700;letter-spacing:-6px;line-height:0.85;text-align:center;padding:30px 0 0;overflow:hidden;user-select:none}
+.footer-wordmark .fw-tec{color:rgba(255,255,255,0.85)}
+.footer-wordmark .fw-era{color:var(--green)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding:20px 0 28px;font-size:12px;color:rgba(255,255,255,0.35)}
+.footer-bottom a{color:rgba(255,255,255,0.5);margin-left:20px;transition:color 0.2s}
+.footer-bottom a:hover{color:#fff}
+.footer-social{display:flex;gap:16px;align-items:center}
+.footer-social a{font-size:13px;color:rgba(255,255,255,0.5)}
+.footer-social a:hover{color:#fff}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+.nav-links{display:none}
+.mobile-toggle{display:block}
+.pillar-grid,.evidence-grid,.diff-row,.beliefs-grid,.questions-grid{grid-template-columns:1fr}
+.services-grid,.fdc-layout,.stack-grid,.stack-row,.dsg-row{grid-template-columns:1fr}
+.stack-categories{grid-template-columns:1fr;gap:16px}
+.stack-cat+.stack-cat{border-left:none;border-top:1px solid var(--border);padding:16px 0 0}
+.steps-row{grid-template-columns:repeat(2,1fr)}
+.stats-row{grid-template-columns:repeat(2,1fr)}
+.applied-row{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+.hero{padding:110px 0 60px}
+.hero-row{grid-template-columns:1fr;gap:32px}
+.hero-image{max-width:500px}
+section{padding:60px 0}
+}
+@media(max-width:600px){
+.steps-row,.stats-row{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr}
+.hero-ctas{flex-direction:column}
+.hero-ctas .btn{width:100%;justify-content:center}
+.sd-row{grid-template-columns:1fr}
+}
+
+.privacy-body h2{font-size:16px;font-weight:700;color:var(--heading);margin:32px 0 10px}
+.privacy-body p{font-size:14px;color:var(--text2);line-height:1.75;margin-bottom:14px}
+.privacy-body ul{margin:0 0 14px 20px;padding:0}
+.privacy-body ul li{font-size:14px;color:var(--text2);line-height:1.75;margin-bottom:6px}
+.privacy-body a{color:var(--green-dark);text-decoration:underline}
+
+/* HubSpot form overrides */
+.hs-form-frame{width:100%}
+.modal .hs-form-frame iframe{width:100%!important;border:none}
+
+.proof-strip{background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:40px 0}
+.proof-strip .stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border-radius:12px;overflow:hidden;margin-bottom:32px}
+.proof-strip .stat{background:var(--bg);border:none;border-radius:0;padding:28px 24px}
+.proof-strip .stat .stat-num{font-size:40px;line-height:1}
+.proof-outcome{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:28px 32px;display:flex;gap:24px;align-items:flex-start;transition:border-color 0.22s,box-shadow 0.22s,transform 0.22s}
+.proof-outcome:hover{border-color:var(--green);box-shadow:0 6px 24px rgba(34,197,94,0.10);transform:translateY(-3px)}
+.proof-outcome .po-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--green-dark);margin-bottom:8px}
+.proof-outcome .po-text{font-size:15px;color:var(--text);line-height:1.6;font-weight:500}
+.proof-outcome .po-meta{font-size:13px;color:var(--text2);margin-top:6px}
+.po-icon{flex-shrink:0;width:40px;height:40px;background:var(--green-pale);border-radius:10px;display:flex;align-items:center;justify-content:center}
+@media(max-width:640px){.proof-strip .stats-row{grid-template-columns:1fr}.proof-outcome{flex-direction:column;gap:16px}}
+.nav-brand a{display:flex;align-items:center}
+</style>
+<script src="https://js-na2.hsforms.net/forms/embed/247270811.js"></script>
+<link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://tecerabiz.com/#organization",
+   "name": "Tecera",
+   "url": "https://tecerabiz.com/",
+   "logo": "https://tecerabiz.com/assets/images/logo.png",
+   "image": "https://tecerabiz.com/assets/images/og-image.png",
+   "description": "Forward-Deployed commercial analytics consultancy for life sciences. Tecera's consultants work with the client's team, data and existing systems to turn market, field and scientific evidence into commercial decisions.",
+   "email": "info@tecerabiz.com",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "690, 12th Cross Rd, 7th Block, Jayanagar",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560070",
+    "addressCountry": "IN"
+   },
+   "areaServed": [
+    "EMEA",
+    "United States",
+    "India"
+   ],
+   "knowsAbout": [
+    "Life sciences commercial analytics",
+    "Syndicated market data (MIDAS)",
+    "Field force and territory analytics",
+    "KOL and scientific intelligence",
+    "Pharma market research",
+    "Custom analytics applications"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "info@tecerabiz.com"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://tecerabiz.com/#website",
+   "name": "Tecera",
+   "url": "https://tecerabiz.com/",
+   "publisher": {
+    "@id": "https://tecerabiz.com/#organization"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://tecerabiz.com/life-sciences#webpage",
+   "url": "https://tecerabiz.com/life-sciences",
+   "name": "Life Sciences Commercial Analytics | Tecera",
+   "description": "Commercial analytics for life sciences across syndicated market data, field effectiveness, KOL intelligence, scientific signals and custom-built applications.",
+   "isPartOf": {
+    "@id": "https://tecerabiz.com/#website"
+   },
+   "about": {
+    "@id": "https://tecerabiz.com/#organization"
+   },
+   "inLanguage": "en",
+   "dateModified": "2026-10-27",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is commercial intelligence in life sciences?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It is the layer that connects market data, field activity and scientific evidence to the commercial decisions a pharma or biopharma team needs to make. Tecera combines governed data, domain analytics and continuous delivery rather than treating each source as a separate report."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does a Forward-Deployed Consultant do in pharma?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They work directly with the commercial team, understand the business question, build analytics or applications inside the client's existing environment, and remain involved as the intelligence evolves. The role combines pharma commercial context, hands-on analytics and technical delivery."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can Tecera work with our existing Veeva, Power BI, Snowflake or Databricks environment?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The model is intentionally stack-agnostic. Tecera can work from flat files and existing BI through to modern cloud and agentic environments without forcing a platform migration."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How is Tecera different from a typical analytics consultancy or software platform?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tecera operates as a continuous intelligence function. We do not require a new platform licence and we do not treat delivery as a one-off analytics project. The same team can diagnose, build, deploy and evolve the intelligence with the client."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where does AI fit into the Tecera model?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AI is applied only where the commercial decision benefits from it, for example forecasting, NLP, literature monitoring or pattern detection at scale. The foundation and domain logic come first."
+     }
+    }
+   ],
+   "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://tecerabiz.com/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Life Sciences",
+      "item": "https://tecerabiz.com/life-sciences"
+     }
+    ]
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="container">
+<div class="nav-brand">
+<a href="/" aria-label="Tecera home"><img src="/assets/images/logo.png" alt="Tecera logo" height="38"></a>
+</div>
+<div class="nav-links">
+<div class="nav-dropdown">
+<button onclick="toggleDropdown(this.parentElement);return false">What We Do ▾</button>
+<div class="nav-dropdown-menu">
+<a href="/#what-we-do"><strong>Commercial Analytics</strong><span>How we approach every engagement</span></a>
+<a href="/life-sciences#services"><strong>Market & Syndicated Data Intelligence</strong><span>Market performance and competitive movement</span></a>
+<a href="/life-sciences#services"><strong>Field Force & Territory Analytics</strong><span>CRM, territories and field effectiveness</span></a>
+<a href="/life-sciences#services"><strong>KOL & Scientific Intelligence</strong><span>KOL identification, mapping and publication signals</span></a>
+<a href="/life-sciences#services"><strong>Custom Built Applications</strong><span>Purpose-built tools for your commercial workflow</span></a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button onclick="toggleDropdown(this.parentElement);return false">Who We Serve ▾</button>
+<div class="nav-dropdown-menu">
+<a href="/life-sciences"><strong>Life Sciences</strong><span>Commercial analytics for pharma and biotech</span></a>
+</div>
+</div>
+<div class="nav-dropdown about-dropdown">
+<button onclick="toggleDropdown(this.parentElement);return false">Who We Are ▾</button>
+<div class="nav-dropdown-menu">
+<a href="/about"><strong>Who We Are</strong><span>Our model and team</span></a>
+<a href="/resources"><strong>Resources</strong><span>Case studies, insights and guides</span></a>
+<a href="/about#careers"><strong>Careers</strong><span>Work with us</span></a>
+</div>
+</div>
+</div>
+<button class="btn btn-primary nav-cta" onclick="openModal()">Talk to a Consultant</button>
+<button class="mobile-toggle" onclick="toggleMobile()" aria-label="Menu">&#9776;</button>
+</div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+<a href="/" onclick="closeMobile()">What We Do</a>
+<a href="/life-sciences" onclick="closeMobile()">Who We Serve: Life Sciences</a>
+<a href="/about" onclick="closeMobile()">Who We Are</a>
+<a href="/resources" onclick="closeMobile()">Resources</a>
+<a href="/about#careers" onclick="closeMobile()">Careers</a>
+<a href="mailto:info@tecerabiz.com" onclick="openModal();closeMobile();return false" style="color:var(--green);font-weight:600">Talk to a Consultant</a>
+</div>
+
+<!-- ==================== PAGE 01: HOME ==================== -->
+<!-- ==================== PAGE 02: LIFE SCIENCES ==================== -->
+<div class="page active" id="page-lifesciences">
+
+<!-- HERO -->
+<section class="hero">
+<div class="container">
+<div class="hero-row">
+<div class="hero-text">
+<span class="eyebrow">Life Sciences Commercial Intelligence</span>
+<h1>Bring the evidence together. See what matters <span class="green">commercially</span>.</h1>
+<p>Market data, field activity and scientific evidence often sit in separate systems. Tecera connects and analyses them to explain what changed, why it changed and where commercial teams should act.</p>
+<div class="hero-ctas">
+<a class="btn btn-primary" href="#evidence">See How We Work &darr;</a>
+<button class="btn btn-secondary" onclick="openModal()">Talk to Us</button>
+</div>
+</div>
+<div class="hero-image">
+<img src="/assets/images/hero-lifesciences.webp" alt="Life Sciences commercial intelligence">
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- PROOF STRIP -->
+<section class="proof-strip">
+<div class="container">
+<div class="stats-row">
+<div class="stat">
+<div class="stat-num">10+</div>
+<p>Years working inside and alongside pharma commercial organisations</p>
+</div>
+<div class="stat">
+<div class="stat-num">6</div>
+<p>Life sciences commercial teams across rare disease, specialty care, ophthalmology and HAE</p>
+</div>
+<div class="stat">
+<div class="stat-num">3</div>
+<p>Evidence types integrated per engagement: market, commercial and scientific</p>
+</div>
+</div>
+<div class="proof-outcome">
+<div class="po-icon">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green-dark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+</div>
+<div>
+<div class="po-label">Example Engagement</div>
+<div class="po-text">A specialty care team used combined MIDAS and CRM analysis to identify a territory reallocation opportunity. New call plan defined and delivered in four weeks.</div>
+<div class="po-meta">Rare disease, EU market. Names withheld.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- THREE EVIDENCE TYPES -->
+<section id="evidence">
+<div class="container">
+<span class="section-eyebrow">Commercial Intelligence</span>
+<h2 class="section-heading">Three evidence types. One <span class="green">commercial decision</span>.</h2>
+<p class="section-sub">Most life sciences teams already work with these data sources. Tecera analyses them individually or together to answer the commercial question.</p>
+<div class="evidence-grid">
+<div class="evidence-card">
+<svg class="evidence-icon" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4v8M16 20v8M4 16h8M20 16h8M8 8l5 5M19 19l5 5M24 8l-5 5M13 19l-5 5"/></svg>
+<h3>Scientific</h3>
+<p>Publications, KOL networks, trials, congress and evolving evidence.</p>
+<div class="tags"><span class="tag">Publications</span><span class="tag">KOLs</span><span class="tag">Trials</span><span class="tag">Congress</span></div>
+</div>
+<div class="evidence-card">
+<svg class="evidence-icon" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 25V15M12 25V10M19 25V17M26 25V6M4 26h24"/></svg>
+<h3>Commercial</h3>
+<p>CRM, SFA, accounts, territories, MSL engagement and field execution.</p>
+<div class="tags"><span class="tag">CRM</span><span class="tag">SFA</span><span class="tag">Accounts</span><span class="tag">Field</span></div>
+</div>
+<div class="evidence-card">
+<svg class="evidence-icon" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9h8v8H5zM19 5h8v8h-8zM19 19h8v8h-8zM13 13l6-4M13 17l6 6"/></svg>
+<h3>Market</h3>
+<p>MIDAS, syndicated sales, distributor data, share and competitive movement.</p>
+<div class="tags"><span class="tag">MIDAS</span><span class="tag">Share</span><span class="tag">Competition</span><span class="tag">Market</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- MARKET RESEARCH -->
+<section class="alt">
+<div class="container">
+<div class="dsg-row">
+<div>
+<span class="section-eyebrow">Market Research</span>
+<h2 class="section-heading">Continuous intelligence across your <span class="green">brand's lifecycle</span>.</h2>
+<p class="section-sub" style="margin-bottom:0">Our market research combines domain expertise with AI-powered analysis to surface the evidence and signals that support your insight goals. From study design through to strategic interpretation, we bring therapeutic context to every stage so findings are commercially usable from day one, and can be repurposed to different contexts.</p>
+</div>
+<div class="dsg-card">
+<div class="dsg-item">
+<span class="dsg-icon"><svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 25V15M12 25V10M19 25V17M26 25V6M4 26h24"/></svg></span>
+<div><strong>Data collection to insight</strong><span>End-to-end AI-powered research design, fielding, analysis, and reporting.</span></div>
+</div>
+<div class="dsg-item">
+<span class="dsg-icon"><svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4v8M16 20v8M4 16h8M20 16h8M8 8l5 5M19 19l5 5M24 8l-5 5M13 19l-5 5"/></svg></span>
+<div><strong>Therapeutic depth</strong><span>Research designed and interpreted by consultants with hands-on life sciences commercial experience.</span></div>
+</div>
+<div class="dsg-item">
+<span class="dsg-icon"><svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h22v18H5zM9 20l5-5 4 3 5-7"/></svg></span>
+<div><strong>Actionable outputs</strong><span>Not a report. A commercial recommendation tied to your specific brand moment.</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FORWARD-DEPLOYED CONSULTANTS -->
+<section class="alt">
+<div class="container">
+<div class="stack-row">
+<div class="stack-left">
+<span class="section-eyebrow">Forward-Deployed Consultants</span>
+<h2 class="section-heading">Pharma commercial context, research and technical execution in <span class="green">one team</span>.</h2>
+<p class="section-sub">Our consultants work directly with commercial teams to define the question, analyse the data, build the output inside the existing environment and keep it useful as the market changes.</p>
+<div class="stack-categories">
+<div class="stack-cat">
+<h4>Commercial context</h4>
+<p>Therapy and market knowledge built in.</p>
+</div>
+<div class="stack-cat">
+<h4>Hands-on analytics</h4>
+<p>Work directly with the data.</p>
+</div>
+<div class="stack-cat">
+<h4>Technical execution</h4>
+<p>Dashboards, models, maps and applications.</p>
+</div>
+</div>
+</div>
+<div class="stack-image-wrap">
+<img src="/assets/images/fdc-image.webp" loading="lazy" decoding="async" alt="Forward-Deployed Consultants network">
+</div>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<div class="container">
+<span class="section-eyebrow">Services</span>
+<h2 class="section-heading"><span class="green">Purpose-built</span> intelligence. From market research to custom applications.</h2>
+<div class="services-grid" style="margin-top:32px">
+<div class="service-card">
+<span class="service-label">Market</span>
+<h3>Market & Syndicated Data Intelligence</h3>
+<p class="service-q">Where is the market moving, and where are the growth opportunities?</p>
+<p>Analyse client-licensed MIDAS or similar syndicated data alongside internal sales to understand growth, share, brand and competitor performance.</p>
+<div class="tags"><span class="tag">MIDAS</span><span class="tag">syndicated data</span><span class="tag">sales</span><span class="tag">share</span><span class="tag">competition</span></div>
+</div>
+<div class="service-card">
+<span class="service-label">KOL</span>
+<h3>KOL Identification and Mapping</h3>
+<p class="service-q">Which KOLs are connected, and who has the greatest influence?</p>
+<p>Analyse publications, congress activity, clinical trials and research relationships to understand influence and network position.</p>
+<div class="tags"><span class="tag">KOL mapping</span><span class="tag">networks</span><span class="tag">congress</span><span class="tag">publications</span></div>
+</div>
+<div class="service-card">
+<span class="service-label">Field</span>
+<h3>Field Force & Territory Performance</h3>
+<p class="service-q">Which territories have untapped commercial potential?</p>
+<p>Analyse CRM/SFA activity, targets, sales, account coverage and market potential to identify execution gaps and field priorities.</p>
+<div class="tags"><span class="tag">CRM</span><span class="tag">SFA</span><span class="tag">targets</span><span class="tag">territory</span></div>
+</div>
+<div class="service-card">
+<span class="service-label">Diagnostics</span>
+<h3>Commercial Performance Diagnostics</h3>
+<p class="service-q">Why did performance move, and what action is needed now?</p>
+<p>Connect attainment, account penetration and share into a root-cause view.</p>
+<div class="tags"><span class="tag">brand performance</span><span class="tag">account penetration</span><span class="tag">attainment</span></div>
+</div>
+<div class="service-card">
+<span class="service-label">Scientific</span>
+<h3>Scientific And Publication Intelligence</h3>
+<p class="service-q">What evidence is emerging, and what changes the commercial picture?</p>
+<p>Monitor literature and trial activity for signals that matter commercially.</p>
+<div class="tags"><span class="tag">PubMed</span><span class="tag">literature</span><span class="tag">trials</span><span class="tag">evidence</span></div>
+</div>
+<div class="service-card">
+<span class="service-label">Bespoke</span>
+<h3>Custom Built Applications</h3>
+<p class="service-q">What recurring analytical workflow needs a purpose-built output?</p>
+<p>Design and build the model, dashboard, automation or application around the commercial question and available data.</p>
+<div class="tags"><span class="tag">forecasting</span><span class="tag">segmentation</span><span class="tag">NLP</span><span class="tag">Agents</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOW WE WORK -->
+<section class="alt" id="how-we-work">
+<div class="container">
+<span class="section-eyebrow">How We Work</span>
+<h2 class="section-heading">Start with the <span class="green">commercial question</span>. Not the technology.</h2>
+<p class="section-sub">One continuous service. No handoffs that lose context.</p>
+<div class="steps-row">
+<div class="step"><span class="step-num">01</span><h3>Diagnose</h3><p>Clarify the decision and audit the data, subscriptions and current workflow.</p><div class="step-tag">Discovery & Data Audit</div></div>
+<div class="step"><span class="step-num">02</span><h3>Build in your environment</h3><p>Harmonise and connect the commercial data layer using the infrastructure you already run.</p><div class="step-tag">Foundation</div></div>
+<div class="step"><span class="step-num">03</span><h3>Deploy intelligence</h3><p>Ship the view, model or application configured to your therapy and commercial reality.</p><div class="step-tag">Intelligence Deployment</div></div>
+<div class="step"><span class="step-num">04</span><h3>Run & evolve</h3><p>Refresh the intelligence and add use cases as new commercial questions emerge.</p><div class="step-tag">Continuous Service</div></div>
+</div>
+</div>
+</section>
+
+<!-- TRACK RECORD -->
+<section>
+<div class="container">
+<span class="section-eyebrow">Track Record</span>
+<h2 class="section-heading">Shaped by <span class="green">life sciences experience</span>. Delivered commercially.</h2>
+<p class="section-sub">Our team has worked inside and alongside commercial functions where the challenge is not accessing more data. It is translating the data into decisions the business can use.</p>
+<div class="stats-row">
+<div class="stat"><div class="stat-num">6+</div><p>Life sciences commercial organisations</p></div>
+<div class="stat"><div class="stat-num">6</div><p>Commercial intelligence applications deployed</p></div>
+<div class="stat"><div class="stat-num">4+</div><p>Therapy areas across rare disease, specialty and ophthalmology</p></div>
+<div class="stat"><div class="stat-num">100%</div><p>Service-led delivery, no platform licence dependency</p></div>
+</div>
+<div class="logo-strip">
+<div class="logo-strip-track">
+<span>Takeda</span><span>Arcera</span><span>Recordati</span><span>Kalvista</span><span>Santen</span><span>Galderma</span>
+<span>Takeda</span><span>Arcera</span><span>Recordati</span><span>Kalvista</span><span>Santen</span><span>Galderma</span>
+</div>
+</div>
+<div class="therapy-tags">
+<span class="therapy-tag">HAE</span>
+<span class="therapy-tag">Ophthalmology</span>
+<span class="therapy-tag">Rare Disease</span>
+<span class="therapy-tag">Specialty Care</span>
+</div>
+</div>
+</section>
+
+<!-- IN PRACTICE -->
+<section class="alt">
+<div class="container">
+<span class="section-eyebrow">In Practice</span>
+<h2 class="section-heading">What an engagement looks like.</h2>
+<div class="practice-box">
+A specialty pharma company needed to reconcile MIDAS, CRM and field data across four EU markets. Three data sources were telling three different stories about market share. We built a unified commercial view inside their existing Power BI environment in six weeks. No new platform. No additional licence. The same team continues to evolve the intelligence as new commercial questions emerge.
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section>
+<div class="container">
+<span class="section-eyebrow">FAQ</span>
+<h2 class="section-heading">Questions buyers usually ask.</h2>
+<div class="faq-list">
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is commercial intelligence in life sciences?</div><div class="faq-a">It is the layer that connects market data, field activity and scientific evidence to the commercial decisions a pharma or biopharma team needs to make. Tecera combines governed data, domain analytics and continuous delivery rather than treating each source as a separate report.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What does a Forward-Deployed Consultant do in pharma?</div><div class="faq-a">They work directly with the commercial team, understand the business question, build analytics or applications inside the client's existing environment, and remain involved as the intelligence evolves. The role combines pharma commercial context, hands-on analytics and technical delivery.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can Tecera work with our existing Veeva, Power BI, Snowflake or Databricks environment?</div><div class="faq-a">Yes. The model is intentionally stack-agnostic. Tecera can work from flat files and existing BI through to modern cloud and agentic environments without forcing a platform migration.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How is Tecera different from a typical analytics consultancy or software platform?</div><div class="faq-a">Tecera operates as a continuous intelligence function. We do not require a new platform licence and we do not treat delivery as a one-off analytics project. The same team can diagnose, build, deploy and evolve the intelligence with the client.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Where does AI fit into the Tecera model?</div><div class="faq-a">AI is applied only where the commercial decision benefits from it, for example forecasting, NLP, literature monitoring or pattern detection at scale. The foundation and domain logic come first.</div></div>
+</div>
+</div>
+</section>
+
+
+
+</div>
+
+<!-- ==================== PAGE 03: WHO WE ARE ==================== -->
+<!-- ==================== PRIVACY POLICY PAGE ==================== -->
+<!-- ==================== CONTACT MODAL ==================== -->
+<div class="modal-overlay" id="contactModal" onclick="if(event.target===this)closeModal()">
+<div class="modal" style="position:relative">
+<button class="modal-close" onclick="closeModal()" aria-label="Close contact form">&times;</button>
+<span class="section-eyebrow">Talk to Us</span>
+<h2>Bring us the <span class="green">commercial question</span>.</h2>
+<p>Tell us what your team is trying to answer. We will come back with a clear view of what is needed and how to get there.</p>
+<div class="hs-form-frame" data-region="na2" data-form-id="6b64e959-12ec-4bf3-8908-3bb29c383e7d" data-portal-id="247270811"></div>
+<div class="email-line">info@tecerabiz.com</div>
+</div>
+</div>
+
+<!-- ==================== FOOTER CTA BANNER ==================== -->
+<div class="footer-cta-banner">
+<div class="container">
+<h2>The right commercial question starts with the right <span class="green">context</span>. We bring both.</h2>
+<p class="fcta-sub">Bring us the commercial question. We will come back with a clear view of what is needed and how to get there.</p>
+<button class="btn" onclick="openModal()">Start a Conversation &rarr;</button>
+</div>
+</div>
+
+<!-- ==================== FOOTER ==================== -->
+
+<!-- ==================== PAGE 05: RESOURCES ====================-->
+<!-- ==================== END PAGE: RESOURCES ==================== -->
+
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="footer-addr">690, 12th Cross Rd<br>7th Block, Jayanagar<br>Bengaluru, Karnataka 560070<br>India<br><br><a href="mailto:info@tecerabiz.com" style="color:var(--green)">info@tecerabiz.com</a></div>
+</div>
+<div>
+<h4>What We Do</h4>
+<ul>
+<li><a href="/#what-we-do">Commercial Analytics</a></li>
+<li><a href="/life-sciences#services">Market &amp; Syndicated Data</a></li>
+<li><a href="/life-sciences#services">Field Force Analytics</a></li>
+<li><a href="/life-sciences#services">KOL &amp; Scientific Intelligence</a></li>
+<li><a href="/life-sciences#services">Custom Built Applications</a></li>
+</ul>
+</div>
+<div>
+<h4>Who We Serve</h4>
+<ul>
+<li><a href="/life-sciences">Life Sciences</a></li>
+</ul>
+</div>
+<div>
+<h4>Who We Are</h4>
+<ul>
+<li><a href="/about">Our Team</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/about#careers">Careers</a></li>
+<li><a href="mailto:info@tecerabiz.com" onclick="openModal();return false">Contact Us</a></li>
+<li><a href="/privacy-policy" style="opacity:0.7">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-wordmark"><span class="fw-tec">Tec</span><span class="fw-era">era</span></div>
+<div class="footer-bottom">
+<span>&copy; 2026 Tecera. All rights reserved.</span>
+<div><a href="/privacy-policy" style="opacity:0.7">Privacy Policy</a></div>
+</div>
+</div>
+</footer>
+
+<script>
+const PAGE_SLUGS={home:'/',lifesciences:'/life-sciences',about:'/about',privacy:'/privacy-policy',resources:'/resources'};
+const SLUG_MAP={'/':"home",'/life-sciences':"lifesciences",'/about':"about",'/privacy-policy':"privacy",'/resources':"resources"};
+const PAGE_META={
+  home:{title:'Forward-Deployed Commercial Analytics | Tecera',desc:"Tecera's Forward-Deployed Consultants work with your team, data and existing systems to turn market, field and scientific evidence into commercial decisions.",canonical:'https://tecerabiz.com/'},
+  lifesciences:{title:'Life Sciences Commercial Analytics | Tecera',desc:'Commercial analytics for life sciences across syndicated market data, field effectiveness, KOL intelligence, scientific signals and custom-built applications.',canonical:'https://tecerabiz.com/life-sciences'},
+  about:{title:'Forward-Deployed Consultants | About Tecera',desc:"Meet Tecera's Forward-Deployed Consultants: domain and analytics specialists who work inside your data environment and stay close to the commercial decision.",canonical:'https://tecerabiz.com/about'},
+  resources:{title:'Resources | Tecera',desc:'Case studies, insights and practical guides from Tecera on commercial analytics, market data interpretation and field effectiveness for life sciences.',canonical:'https://tecerabiz.com/resources'},
+  privacy:{title:'Privacy Policy | Tecera',desc:"Read Tecera's Privacy Policy to understand how we collect, use, protect and manage information submitted through our website and contact forms.",canonical:'https://tecerabiz.com/privacy-policy'}
+};
+function updateMeta(id){
+  var m=PAGE_META[id]||PAGE_META.home;
+  document.title=m.title;
+  var d=document.querySelector('meta[name="description"]');if(d)d.setAttribute('content',m.desc);
+  var c=document.querySelector('link[rel="canonical"]');if(c)c.setAttribute('href',m.canonical);
+  var ot=document.querySelector('meta[property="og:title"]');if(ot)ot.setAttribute('content',m.title);
+  var od=document.querySelector('meta[property="og:description"]');if(od)od.setAttribute('content',m.desc);
+  var ou=document.querySelector('meta[property="og:url"]');if(ou)ou.setAttribute('content',m.canonical);
+  var tt=document.querySelector('meta[name="twitter:title"]');if(tt)tt.setAttribute('content',m.title);
+  var td=document.querySelector('meta[name="twitter:description"]');if(td)td.setAttribute('content',m.desc);
+  var s=document.getElementById('webpage-schema');
+  if(!s){s=document.createElement('script');s.type='application/ld+json';s.id='webpage-schema';document.head.appendChild(s);}
+  s.textContent=JSON.stringify({"@context":"https://schema.org","@type":"WebPage","name":m.title,"description":m.desc,"url":m.canonical,"isPartOf":{"@type":"WebSite","name":"Tecera","url":"https://tecerabiz.com"}});
+  var faq=document.getElementById('faq-schema');
+  if(id==='lifesciences'){
+    if(!faq){faq=document.createElement('script');faq.type='application/ld+json';faq.id='faq-schema';document.head.appendChild(faq);}
+    faq.textContent=JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is forward-deployed commercial analytics?","acceptedAnswer":{"@type":"Answer","text":"Forward-deployed commercial analytics means embedding domain and analytics specialists directly inside a client team, working with their data, systems and commercial questions in real time, rather than delivering reports from the outside. Tecera's consultants attend commercial meetings, access client data environments and stay close to the decision being made."}},{"@type":"Question","name":"What syndicated data sources does Tecera work with?","acceptedAnswer":{"@type":"Answer","text":"Tecera works with major syndicated market data providers including IQVIA, MIDAS and DRG, interpreting and activating data within the client's existing systems rather than replacing them."}},{"@type":"Question","name":"What commercial analytics services does Tecera offer for life sciences?","acceptedAnswer":{"@type":"Answer","text":"Tecera offers five core services for life sciences companies: syndicated market data intelligence, field force effectiveness analytics, KOL and stakeholder mapping, scientific signal monitoring, and custom-built analytics applications for decisions that standard platforms cannot support."}},{"@type":"Question","name":"How is Tecera different from a traditional analytics consultancy?","acceptedAnswer":{"@type":"Answer","text":"Traditional consultancies deliver findings and leave. Tecera's Forward-Deployed Consultants work inside the client environment for the duration of the engagement, using the client's own data and systems. The model is built around the commercial decision, not the deliverable."}},{"@type":"Question","name":"Does Tecera use AI in its analytics work?","acceptedAnswer":{"@type":"Answer","text":"Tecera builds custom analytics applications only where the decision demands it. AI is not positioned as a product. The focus is on domain expertise, data interpretation and commercial judgement applied to the client's specific question."}}]});
+  } else {
+    if(faq)faq.remove();
+  }
+  // BreadcrumbList — per page
+  var bc=document.getElementById('breadcrumb-schema');
+  if(!bc){bc=document.createElement('script');bc.type='application/ld+json';bc.id='breadcrumb-schema';document.head.appendChild(bc);}
+  var crumbs=[{"@type":"ListItem","position":1,"name":"Tecera","item":"https://tecerabiz.com"}];
+  if(id==='lifesciences')crumbs.push({"@type":"ListItem","position":2,"name":"Life Sciences","item":"https://tecerabiz.com/life-sciences"});
+  else if(id==='about')crumbs.push({"@type":"ListItem","position":2,"name":"Who We Are","item":"https://tecerabiz.com/about"});
+  else if(id==='privacy')crumbs.push({"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://tecerabiz.com/privacy-policy"});
+  bc.textContent=JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs});
+  // Speakable — hero headline + first paragraph of active page
+  var sp=document.getElementById('speakable-schema');
+  if(!sp){sp=document.createElement('script');sp.type='application/ld+json';sp.id='speakable-schema';document.head.appendChild(sp);}
+  sp.textContent=JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["#page-"+id+" h1","#page-"+id+" .hero-text p"]},"url":m.canonical});
+}
+function showPage(id,push){
+document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+const el=document.getElementById('page-'+id);
+if(el)el.classList.add('active');
+window.scrollTo({top:0,behavior:'instant'});
+if(push!==false){try{const slug=PAGE_SLUGS[id]||'/';history.pushState({page:id},'',slug);}catch(e){}}
+}
+(function(){if(location.hash){var id=location.hash.slice(1);setTimeout(function(){var el=document.getElementById(id);if(el)el.scrollIntoView({block:'start'});},50);}})();
+function scrollToEl(id){
+setTimeout(()=>{
+const el=document.getElementById(id);
+if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
+},100);
+}
+function toggleDropdown(el){
+  var wasOpen=el.classList.contains('open');
+  document.querySelectorAll('.nav-dropdown').forEach(d=>d.classList.remove('open'));
+  if(!wasOpen)el.classList.add('open');
+}
+document.addEventListener('click',function(e){
+  if(!e.target.closest('.nav-dropdown'))
+    document.querySelectorAll('.nav-dropdown').forEach(d=>d.classList.remove('open'));
+});
+function openModal(){document.getElementById('contactModal').classList.add('open');document.body.style.overflow='hidden'}
+function closeModal(){document.getElementById('contactModal').classList.remove('open');document.body.style.overflow=''}
+function toggleMobile(){document.getElementById('mobileMenu').classList.toggle('open')}
+function closeMobile(){document.getElementById('mobileMenu').classList.remove('open')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+
+// Hero rotating text
+(function(){
+  var items = document.querySelectorAll('.hero-rotate-wrap span');
+  if(!items.length) return;
+  var current = 0;
+  setInterval(function(){
+    items[current].classList.remove('active');
+    current = (current + 1) % items.length;
+    items[current].classList.add('active');
+  }, 2000);
+})();
+
+// ── TYPEWRITER ────────────────────────────────────────────────────────────────
+(function(){
+  var segments=[
+    {text:"If your morning starts here, ",green:false},
+    {text:"we should talk",green:true},
+    {text:".",green:false}
+  ];
+  var full="If your day starts with these, we should meet.";
+  var el=document.getElementById('tw-text');
+  var cursor=document.getElementById('tw-cursor');
+  if(!el)return;
+
+  var charIndex=0;
+  var started=false;
+
+  function getStyledHTML(chars){
+    var plain1="If your day starts with these, ";
+    var plain2=".";
+    var green="we should meet";
+    var out="",i=0;
+    // part 1 plain
+    while(i<chars.length && i<plain1.length){out+=chars[i];i++;}
+    // part 2 green
+    if(i<chars.length){
+      out+='<span class="green">';
+      var gStart=i;
+      while(i<chars.length && i<plain1.length+green.length){out+=chars[i];i++;}
+      out+='</span>';
+    }
+    // part 3 plain dot
+    if(i<chars.length){while(i<chars.length){out+=chars[i];i++;}}
+    return out;
+  }
+
+  function type(){
+    if(charIndex<=full.length){
+      el.innerHTML=getStyledHTML(full.slice(0,charIndex));
+      charIndex++;
+      setTimeout(type, charIndex<10?120:charIndex<30?105:charIndex<45?95:90);
+    } else {
+      // Done — pulse cursor then stop
+      setTimeout(function(){
+        if(cursor)cursor.style.animation='none';
+      }, 2400);
+    }
+  }
+
+  // Trigger when section scrolls into view
+  var strip=document.querySelector('.glyphs-strip');
+  if(!strip){type();return;}
+  var obs=new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting && !started){
+      started=true;
+      obs.disconnect();
+      setTimeout(type,300);
+    }
+  },{threshold:0.4});
+  obs.observe(strip);
+})();
+</script>
+</body>
+</html>
